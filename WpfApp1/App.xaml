@@ -7,7 +7,7 @@
         <ControlTemplate x:Key="btnc1"  TargetType ="Button">
             <Border CornerRadius="25" BorderBrush="CadetBlue" BorderThickness="1" Background="CadetBlue"
                    HorizontalAlignment ="Left" Margin="80,20" Height="40" Width="250">
-                <ContentControl HorizontalAlignment ="Center" VerticalAlignment="Center" Content="Древнеславянский покровитель" Foreground="White" FontSize="16"/>
+                <ContentControl HorizontalAlignment ="Center" VerticalAlignment="Center" Content="Древнеславянский гороскоп" Foreground="White" FontSize="16"/>
             </Border>
         </ControlTemplate>
         
