@@ -27,12 +27,17 @@ namespace WpfApp1
 
         private void Button_Slavs(object sender, RoutedEventArgs e)
         {
-
+            Year.Visibility = Visibility.Collapsed;
+            YearBox.Visibility = Visibility.Collapsed;
+            Result.Visibility = Visibility.Visible;
         }   
 
         private void Button_Japan(object sender, RoutedEventArgs e)
         {
-
+            Year.Visibility = Visibility.Visible;
+            YearBox.Visibility = Visibility.Visible;
+            Result.Visibility = Visibility.Visible;
+          
         }
 
         private void ComboBox_SelectionMonth(object sender, SelectionChangedEventArgs e)

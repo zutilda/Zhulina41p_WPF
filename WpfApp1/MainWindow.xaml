@@ -23,8 +23,8 @@
         <Label Grid.Row="1" Height="40" Width="150" Foreground="DarkSlateBlue" FontSize="20" Margin="50,40" VerticalAlignment="Top" HorizontalAlignment="Left">Введите день:</Label>
         <TextBox Grid.Row="1" Height="40" Width="60" Foreground="DarkSlateBlue" FontSize="20" Margin="200,40" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
 
-        <Label Grid.Row="1" Height="40" Width="150" Foreground="DarkSlateBlue" FontSize="20" Margin="50,100" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Collapsed">Введите год:</Label>
-        <TextBox Grid.Row="1" Height="40" Width="60" Foreground="DarkSlateBlue" FontSize="20" Margin="200,100" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Collapsed"></TextBox>
+        <Label Name="Year" Grid.Row="1" Height="40" Width="150" Foreground="DarkSlateBlue" FontSize="20" Margin="50,100" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Collapsed">Введите год:</Label>
+        <TextBox Name="YearBox" Grid.Row="1" Height="40" Width="60" Foreground="DarkSlateBlue" FontSize="20" Margin="200,100" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Collapsed"></TextBox>
         <ComboBox Grid.Row="1"  Style="{StaticResource cbx}" SelectionChanged="ComboBox_SelectionMonth">
             <ComboBoxItem Content="Выберите месяц" IsSelected="True" IsEnabled="True"/>
             <TextBlock Style="{StaticResource txtb}">Январь</TextBlock>
@@ -40,7 +40,7 @@
             <TextBlock Style="{StaticResource txtb}">Ноябрь</TextBlock>
             <TextBlock Style="{StaticResource txtb}">Декабрь</TextBlock>
         </ComboBox>
-        <Button Grid.Row="1" Template="{StaticResource btnc3}" Click="Button_Result"/>
+        <Button Name="Result" Grid.Row="1" Template="{StaticResource btnc3}" Click="Button_Result" Visibility="Collapsed"/>
         <Label Grid.Row="1" Style="{StaticResource lbl2}">Ваш результат:</Label>
         <TextBlock Grid.Row="1" Style="{StaticResource txtb1}" VerticalAlignment="Bottom"></TextBlock>
         <Button   Grid.Row="2" Template="{StaticResource btnc1}" Click="Button_Slavs"/>
