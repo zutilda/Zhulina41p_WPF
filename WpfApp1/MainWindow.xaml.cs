@@ -24,5 +24,20 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void Button_Slavs(object sender, RoutedEventArgs e)
+        {
+
+        }   
+
+        private void Button_Japan(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ComboBox_SelectionMonth(object sender, SelectionChangedEventArgs e)
+        {
+
+        }        
     }
 }
