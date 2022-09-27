@@ -18,6 +18,13 @@
             </Border>
         </ControlTemplate>
 
+        <ControlTemplate x:Key="btnc3"  TargetType ="Button">
+            <Border CornerRadius="25" BorderBrush="CadetBlue" BorderThickness="1" Background="CadetBlue"
+                   HorizontalAlignment ="Right" Height="40" Width="250" Margin="80,100" VerticalAlignment="Top">
+                <ContentControl HorizontalAlignment ="Center" VerticalAlignment="Center" Content="Получить результат" Foreground="White" FontSize="16"/>
+            </Border>
+        </ControlTemplate>
+
         <Style x:Key="lbl"  TargetType ="Label">           
             <Setter Property="Foreground" Value="DarkSlateBlue"/>
             <Setter Property="FontSize" Value="24"/>          

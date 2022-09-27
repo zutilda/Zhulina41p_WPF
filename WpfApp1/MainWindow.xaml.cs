@@ -38,6 +38,12 @@ namespace WpfApp1
         private void ComboBox_SelectionMonth(object sender, SelectionChangedEventArgs e)
         {
 
-        }        
+        }
+
+        private void Button_Result(object sender, RoutedEventArgs e)
+        {
+
+        }
+
     }
 }
