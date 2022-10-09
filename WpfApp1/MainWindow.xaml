@@ -42,7 +42,7 @@
         </ComboBox>
         <Button Name="Result" Grid.Row="1" Template="{StaticResource btnc3}" Click="Button_Result" Visibility="Collapsed"/>
         <Label Grid.Row="1" Style="{StaticResource lbl2}">Ваш результат:</Label>
-        <TextBlock Grid.Row="1" Style="{StaticResource txtb1}" VerticalAlignment="Bottom"></TextBlock>
+        <TextBlock Name="strResult" Grid.Row="1" Style="{StaticResource txtb1}"/>
         <Button   Grid.Row="2" Template="{StaticResource btnc1}" Click="Button_Slavs"/>
         <Button Grid.Row="2" Template="{StaticResource btnc2}" Click="Button_Japan"/>
         <Label Grid.Row="2" Height="30" Width="320" Foreground="DarkSlateBlue" FontSize="14" VerticalAlignment="Bottom" HorizontalAlignment="Center">Нажмите на одну из кнопок для начала работы</Label>
