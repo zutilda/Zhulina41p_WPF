@@ -21,24 +21,24 @@
         <Label Grid.Row="0"  Style="{StaticResource lbl}">Древнеславянские покровители или японский гороскоп? Выбирайте!</Label>
         <Label Grid.Row="1"  Style="{StaticResource lbl1}">Введите свои данные:</Label>
         <Label Grid.Row="1" Height="40" Width="150" Foreground="DarkSlateBlue" FontSize="20" Margin="50,40" VerticalAlignment="Top" HorizontalAlignment="Left">Введите день:</Label>
-        <TextBox Grid.Row="1" Height="40" Width="60" Foreground="DarkSlateBlue" FontSize="20" Margin="200,40" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <TextBox Name="Day" Grid.Row="1" Height="40" Width="60" Foreground="DarkSlateBlue" FontSize="20" Margin="200,40" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
 
         <Label Name="Year" Grid.Row="1" Height="40" Width="150" Foreground="DarkSlateBlue" FontSize="20" Margin="50,100" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Collapsed">Введите год:</Label>
         <TextBox Name="YearBox" Grid.Row="1" Height="40" Width="60" Foreground="DarkSlateBlue" FontSize="20" Margin="200,100" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Collapsed"></TextBox>
-        <ComboBox Grid.Row="1"  Style="{StaticResource cbx}" SelectionChanged="ComboBox_SelectionMonth">
+        <ComboBox Name="Month" Grid.Row="1"  Style="{StaticResource cbx}" SelectionChanged="ComboBox_SelectionMonth">
             <ComboBoxItem Content="Выберите месяц" IsSelected="True" IsEnabled="True"/>
-            <TextBlock Style="{StaticResource txtb}">Январь</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Февраль</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Март</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Апрель</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Май</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Июнь</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Июль</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Август</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Сентябрь</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Октябрь</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Ноябрь</TextBlock>
-            <TextBlock Style="{StaticResource txtb}">Декабрь</TextBlock>
+            <TextBlock Name="January" Style="{StaticResource txtb}">Январь</TextBlock>
+            <TextBlock Name="Fabuary" Style="{StaticResource txtb}">Февраль</TextBlock>
+            <TextBlock Name="March" Style="{StaticResource txtb}">Март</TextBlock>
+            <TextBlock Name="April" Style="{StaticResource txtb}">Апрель</TextBlock>
+            <TextBlock Name="May" Style="{StaticResource txtb}">Май</TextBlock>
+            <TextBlock Name="June" Style="{StaticResource txtb}">Июнь</TextBlock>
+            <TextBlock Name="July" Style="{StaticResource txtb}">Июль</TextBlock>
+            <TextBlock Name="August" Style="{StaticResource txtb}">Август</TextBlock>
+            <TextBlock Name="September" Style="{StaticResource txtb}">Сентябрь</TextBlock>
+            <TextBlock Name="October" Style="{StaticResource txtb}">Октябрь</TextBlock>
+            <TextBlock Name="November" Style="{StaticResource txtb}">Ноябрь</TextBlock>
+            <TextBlock Name="December" Style="{StaticResource txtb}">Декабрь</TextBlock>
         </ComboBox>
         <Button Name="Result" Grid.Row="1" Template="{StaticResource btnc3}" Click="Button_Result" Visibility="Collapsed"/>
         <Label Grid.Row="1" Style="{StaticResource lbl2}">Ваш результат:</Label>
